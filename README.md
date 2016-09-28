@@ -1,22 +1,8 @@
 # TextExpander
 
-[![Build Status](https://travis-ci.org/boxen/puppet-textexpander.png?branch=master)](https://travis-ci.org/boxen/puppet-textexpander)
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-[TextExpander](http://www.smilesoftware.com/TextExpander/) saves your fingers
-and your keyboard, expanding custom keyboard shortcuts into frequently-used
-text and pictures.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
 
-## Usage
-
-```puppet
-include textexpander
-```
-
-## Required Puppet Modules
-
-* `boxen`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
